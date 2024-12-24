@@ -373,7 +373,7 @@ Buy From :- @HIMANSHU_PAPA_BOL
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
+    response = f'''🔥Welcome to the battlefield!!🔥, {user_name}! 🔥.
 🤖Try To Run This Command : /help 
 ✅BUY :- @HIMANSHU_PAPA_BOL'''
     bot.reply_to(message, response)
@@ -400,8 +400,9 @@ Vip 🌟 :
 
 Pr-ice List💸 :
 Day-->80 Rs
-Week-->400 Rs
-Month-->1000 Rs
+3Day-->150 Rs
+Week--->350 Rs
+Month--->800 Rs
 '''
     bot.reply_to(message, response)
 
@@ -438,7 +439,7 @@ def broadcast_message(message):
         else:
             response = "🤖 Please Provide A Message To Broadcast."
     else:
-        response = "Only Admin Can Run This Command 😡."
+        response = "Only Admin Can Run This Command ."
 
     bot.reply_to(message, response)
 
